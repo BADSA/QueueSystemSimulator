@@ -1,0 +1,53 @@
+OBJETIVO 1:
+  
+  Cantidad de paquetes: 400
+  Configuracion ideal: [5, 14, 8, 5]
+  Costo: $988.00
+  Media: 3113.4743 minutos.
+  Duracion: 5 segundos.
+
+  Cantidad de paquetes: 600
+  Configuracion ideal: [5, 12, 7, 6]
+  Costo: $993.20
+  Media minima: 4729.35 minutos.
+  Duracion: 6 segundos.
+  
+  Cantidad de paquetes: 800
+  Configuracion ideal: [5, 14, 8, 5]
+  Costo: $988.00
+  Media minima: 6394.66 minutos.
+  Duracion: 7 segundos.
+
+  Cantidad de paquetes: 1000
+  Configuracion ideal: [6, 14, 6, 5]
+  Costo: $993.20
+  Media minima: 7994.3967 minutos.
+  Duracion: 9 segundos.
+
+=========================================
+
+OBJETIVO 2:
+
+  Cantidad de paquetes: 1000
+  Configuracion ideal: [376, 657, 563, 475]
+  Costo: $69519.80
+  Diferencia con 45: 0.039456 minutos.
+  Duracion: 48 segundos.
+  Tamaño de la poblacion: 50
+  Generaciones: 1000
+  Mutaciones por generación: 5  
+
+=========================================
+
+OBJETIVO 3:
+
+  Cantidad de paquetes: 1000
+  Configuracion ideal: [997, 1000, 1000, 867]
+  Varianza es: 0.884812.
+  Duracion: 81 segundos.
+  Tamaño de la poblacion: 100
+  Generaciones: 1000
+  Mutaciones por generación: 10
+
+   
+

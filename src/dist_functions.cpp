@@ -38,7 +38,7 @@ double binomial(int n,double k,double p){
     return combinations(n,k) * pow(p,k) * pow(1-p,n-k);
 }
 
-double exponencial(double x){
+double exponential(double x){
     double l = 1 / 12.3697; // media de arch3
     return l * pow( e , (-l * x));
 }
