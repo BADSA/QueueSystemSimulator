@@ -1,7 +1,7 @@
 #include <fstream>
 #include <vector>
 #include <map>
-#include <utility>
+#include <iostream>
 #include "../headers/writers.h"
 
 /*
@@ -27,4 +27,5 @@ void writeFile2(vector<ppii> frecuencies){
         outfile <<frecuencies[i].first.second<<","<<
         frecuencies[i].second<<endl;
     }
+    cout << "Escribio en disco "<<endl;
 }

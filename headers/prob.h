@@ -4,6 +4,7 @@
 #define QUEUESYSTEMSIMULATOR_PROB_H
 
 double media(vf numbers);
+double deviation(vf numbers, double ave);
 vf getObserved(msi numbers);
 vf getObserved2(std::vector<ppii> frecuencies);
 vf foLessFe(vf observed,vf expected);

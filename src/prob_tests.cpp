@@ -20,15 +20,15 @@ double simpson(double a,double b,double n){
     double k = 0.0;
     double x = a + h;
     for (int i=1; i < (int)n/2 + 1;i++){
-        k += 4 * exponencial(x);
+        k += 4 * exponential(x);
         x += 2 * h;
     }
     x = a + 2*h;
     for (int i=1; i < (int)n/2;i++){
-        k +=  2 * exponencial(x);
+        k +=  2 * exponential(x);
         x +=  2 * h;
     }
-    return (h/3.0)*(exponencial(a)+exponencial(b)+k) * 1000;
+    return (h/3.0)*(exponential(a)+exponential(b)+k) * 1000;
 }
 
 

@@ -29,4 +29,5 @@
 
 *.pdf
 *.txt
+!CMakeLists.txt
 .idea/

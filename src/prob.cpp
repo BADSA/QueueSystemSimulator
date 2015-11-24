@@ -11,6 +11,15 @@ double media(vf numbers){
     return (total/numbers.size());
 }
 
+double deviation(vf numbers, double ave) {
+    double E = 0;
+    double inverse = 1.0 / static_cast<double>(numbers.size());
+    for(int i=0; i<numbers.size(); i++) {
+        E += pow(static_cast<double>(numbers[i]) - ave, 2);
+    }
+    return sqrt(inverse * E);
+}
+
 vf getObserved(msi numbers){
     vf observed;
     for(std::map<int,int>::iterator iter = numbers.begin(); iter != numbers.end(); ++iter){
